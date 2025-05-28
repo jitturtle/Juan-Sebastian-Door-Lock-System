@@ -1,1 +1,4 @@
 # Juan-Sebastian-Door-Lock-System
+
+
+Our team has thought of an idea that by using Arduino we can make schools K-12 a safer, more comforting environment for all students. We have developed the idea of making a door that will open using the fingerprint of a registered student, parent/emergency contact, staff, or teacher. The fingerprints of everyone will be taken and stored so later they can be used to identify and verify that the person is not a threat to the school and the students in it. If the fingerprint isn’t recognized the alarm will sound, an LED will flash, the door will stay closed, and the lcd display will show a message saying that the fingerprint doesn’t match any of the ones registered in the system. All in all, this idea will keep schools safe from untrusted adults or kids that do not belong to the school, out and keep the right individuals in and safe from any harm or danger.
