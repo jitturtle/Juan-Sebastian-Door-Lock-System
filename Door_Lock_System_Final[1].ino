@@ -102,7 +102,7 @@ void setup() {
 
  delay(2000);
  lcd.clear();
- enrollFingerprint();  // Initial enrollment only
+ enrollFingerprint();  
 }
 
 
@@ -110,7 +110,7 @@ void loop() {
  scanFingerprint();
 
 
- // Restart only allowed after successful door open
+
  if (doorOpened && digitalRead(RESTART_BUTTON_PIN) == LOW) {
    lcd.clear();
    lcd.print("Restarting...");
@@ -217,7 +217,7 @@ void scanFingerprint() {
  lockServos();
  lcd.clear();
  failCount = 0;
- doorOpened = true; // Allow restart button after this
+ doorOpened = true;
 }
 
 
